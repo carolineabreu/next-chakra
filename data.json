@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Orange Rose Vase",
+    "price": 24.50,
+    "image": "/vase1.jpg"
+  },
+  {
+    "name": "Bouquet Pink Rose",
+    "price": 24.50,
+    "image": "/bouquet1.jpg"
+  },
+  {
+    "name": "Basket of Mixed Roses",
+    "price": 24.50,
+    "image": "/basket1.jpg"
+  },
+  {
+    "name": "Peperomia Potted",
+    "price": 24.50,
+    "image": "/potted1.jpg"
+  },
+  {
+    "name": "Bouquet Pink and White Flowers",
+    "price": 24.50,
+    "image": "/bouquet2.jpg"
+  },
+  {
+    "name": "Basket of Sunflowers",
+    "price": 24.50,
+    "image": "/basket2.jpg"
+  },
+  {
+    "name": "Ficus Potted",
+    "price": 24.50,
+    "image": "/potted2.jpg"
+  },
+  {
+    "name": "Red Tulips Vase",
+    "price": 24.50,
+    "image": "/vase2.jpg"
+  },
+  {
+    "name": "Devil's ivy Suspense Vase",
+    "price": 24.50,
+    "image": "/potted3.jpg"
+  },
+  {
+    "name": "Basket of Roses",
+    "price": 24.50,
+    "image": "/basket3.jpg"
+  },
+  {
+    "name": "Red Roses Bouquet",
+    "price": 24.50,
+    "image": "/bouquet3.jpg"
+  },
+  {
+    "name": "Mixed Flowers Vase",
+    "price": 24.50,
+    "image": "/vase3.jpg"
+  }
+]
