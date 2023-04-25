@@ -9,7 +9,7 @@ export function Header() {
       backgroundPosition="center"
       borderRadius={8}
       justify="end"
-      marginX={4}
+      marginX={6}
     >
       <Flex
         direction="column"
