@@ -1,4 +1,5 @@
 import { Button, Flex, Link, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 export function Header() {
   return (
@@ -34,7 +35,7 @@ export function Header() {
           Amet consectetur adipisicing elit. Exercitationem iusto magni quibusdam ipsum debitis
           provident?
         </Text>
-        <Link href="/products">
+        <Link as={NextLink} href="/products">
           <Button colorScheme="red" size="lg">
             Shop Now
           </Button>

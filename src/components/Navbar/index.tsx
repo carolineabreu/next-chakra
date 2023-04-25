@@ -1,4 +1,5 @@
-import { Box, Link, HStack, Text, Flex } from "@chakra-ui/react";
+import { Box, Link, HStack, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 export function Navbar() {
   return (
@@ -12,9 +13,15 @@ export function Navbar() {
       </Box>
 
       <HStack fontSize="lg" spacing="6">
-        <Link href="/">Home</Link>
-        <Link href="/products">Shop</Link>
-        <Link href="/contact">Contact Us</Link>
+        <Link as={NextLink} href="/">
+          Home
+        </Link>
+        <Link as={NextLink} href="/products">
+          Shop
+        </Link>
+        <Link as={NextLink} href="/contact">
+          Contact Us
+        </Link>
       </HStack>
     </HStack>
   );

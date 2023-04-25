@@ -1,4 +1,5 @@
 import { Flex, Button, Text, Image, Link } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 interface ExploreCardProps {
   imageSrc: string;
@@ -28,7 +29,7 @@ export function ExploreCard({ imageSrc, imageAlt, category }: ExploreCardProps) 
         align="center"
       />
       <Text fontWeight="bold">{category}</Text>
-      <Link href="/products">
+      <Link as={NextLink} href="/products">
         <Button variant="outline" colorScheme="red" size="sm">
           Explore
         </Button>

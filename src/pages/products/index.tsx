@@ -1,7 +1,7 @@
 import { Footer } from "@/src/components/Footer";
 import { Navbar } from "@/src/components/Navbar";
 import { PopularCard } from "@/src/components/PopularCard";
-import { Flex, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
+import { Flex, Grid, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
 import data from "../../../data.json";
 import { useState } from "react";
 import { SearchIcon } from "@chakra-ui/icons";
@@ -9,6 +9,7 @@ import { SearchIcon } from "@chakra-ui/icons";
 export default function Products() {
   const [search, setSearch] = useState("");
 
+  // arrumar com display grid pra conseguir dar o espaço correto
   return (
     <>
       <Navbar />
@@ -29,7 +30,12 @@ export default function Products() {
             opacity={0.4}
           />
         </InputGroup>
-        <Flex justify="space-between" align="center" wrap="wrap" gap={4}>
+        <Grid
+          gridTemplateColumns="repeat(auto-fill, minmax(300px, auto))"
+          width="100%"
+          gridGap={5}
+          justifyItems="center"
+        >
           {data
             .filter((products) => {
               if (search === "") {
@@ -51,7 +57,7 @@ export default function Products() {
                 />
               );
             })}
-        </Flex>
+        </Grid>
       </Flex>
       <Footer />
     </>

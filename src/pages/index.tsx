@@ -43,7 +43,7 @@ export default function Home() {
         <Text fontSize="3xl" fontWeight="700">
           Most Popular
         </Text>
-        <Flex justify="space-between" align="center" wrap="wrap" gap={4}>
+        {/* <Flex justify="space-between" align="center" wrap="wrap" gap={4}>
           {data.slice(0, 12).map((product) => {
             return (
               <PopularCard
@@ -55,7 +55,25 @@ export default function Home() {
               />
             );
           })}
-        </Flex>
+        </Flex> */}
+        <Grid
+          gridTemplateColumns="repeat(auto-fill, minmax(300px, auto))"
+          width="100%"
+          gridGap={5}
+          justifyItems="center"
+        >
+          {data.slice(0, 12).map((product) => {
+            return (
+              <PopularCard
+                imageSrc={product.image}
+                imageAlt={product.name}
+                name={product.name}
+                price={product.price}
+                key={product.name}
+              />
+            );
+          })}
+        </Grid>
       </Flex>
       <Footer />
     </>
