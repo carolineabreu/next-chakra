@@ -16,7 +16,7 @@ export function Header() {
         justify="center"
         align="center"
         height="100%"
-        gap={22}
+        gap={4}
         marginRight={20}
         width="md"
       >

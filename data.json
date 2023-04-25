@@ -1,62 +1,122 @@
 [
   {
     "name": "Orange Rose Vase",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/vase1.jpg"
   },
   {
     "name": "Bouquet Pink Rose",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/bouquet1.jpg"
   },
   {
     "name": "Basket of Mixed Roses",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/basket1.jpg"
   },
   {
     "name": "Peperomia Potted",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/potted1.jpg"
   },
   {
     "name": "Bouquet Pink and White Flowers",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/bouquet2.jpg"
   },
   {
     "name": "Basket of Sunflowers",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/basket2.jpg"
   },
   {
     "name": "Ficus Potted",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/potted2.jpg"
   },
   {
     "name": "Red Tulips Vase",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/vase2.jpg"
   },
   {
     "name": "Devil's ivy Suspense Vase",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/potted3.jpg"
   },
   {
     "name": "Basket of Roses",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/basket3.jpg"
   },
   {
     "name": "Red Roses Bouquet",
-    "price": 24.50,
+    "price": 24.5,
     "image": "/bouquet3.jpg"
   },
   {
     "name": "Mixed Flowers Vase",
-    "price": 24.50,
+    "price": 24.5,
+    "image": "/vase3.jpg"
+  },
+  {
+    "name": "Mixed Rose Vase",
+    "price": 24.5,
+    "image": "/vase1.jpg"
+  },
+  {
+    "name": "Mixed Pink Rose",
+    "price": 24.5,
+    "image": "/bouquet1.jpg"
+  },
+  {
+    "name": "Basket of Mixed Flowers",
+    "price": 24.5,
+    "image": "/basket1.jpg"
+  },
+  {
+    "name": "Potted Peperomia",
+    "price": 24.5,
+    "image": "/potted1.jpg"
+  },
+  {
+    "name": "Bouquet Mixed Flowers",
+    "price": 24.5,
+    "image": "/bouquet2.jpg"
+  },
+  {
+    "name": "Basket of Flowers",
+    "price": 24.5,
+    "image": "/basket2.jpg"
+  },
+  {
+    "name": "Potted Ficus",
+    "price": 24.5,
+    "image": "/potted2.jpg"
+  },
+  {
+    "name": "Tulips Vase",
+    "price": 24.5,
+    "image": "/vase2.jpg"
+  },
+  {
+    "name": "Devil's ivy Vase",
+    "price": 24.5,
+    "image": "/potted3.jpg"
+  },
+  {
+    "name": "Mixed Basket",
+    "price": 24.5,
+    "image": "/basket3.jpg"
+  },
+  {
+    "name": "Red Flowers Bouquet",
+    "price": 24.5,
+    "image": "/bouquet3.jpg"
+  },
+  {
+    "name": "Flowers White Vase",
+    "price": 24.5,
     "image": "/vase3.jpg"
   }
 ]

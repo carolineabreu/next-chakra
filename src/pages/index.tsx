@@ -7,11 +7,6 @@ import data from "../../data.json";
 import { PopularCard } from "../components/PopularCard";
 
 export default function Home() {
-  const isWideVersion = useBreakpointValue({
-    base: false,
-    lg: true,
-  });
-
   return (
     <>
       <Navbar />
@@ -48,8 +43,8 @@ export default function Home() {
         <Text fontSize="3xl" fontWeight="700">
           Most Popular
         </Text>
-        <Flex justify="space-between" align="center" wrap="wrap" gap={isWideVersion ? 20 : 4}>
-          {data.map((product) => {
+        <Flex justify="space-between" align="center" wrap="wrap" gap={4}>
+          {data.slice(0, 12).map((product) => {
             return (
               <PopularCard
                 imageSrc={product.image}
