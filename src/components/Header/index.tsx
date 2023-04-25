@@ -3,13 +3,13 @@ import { Button, Flex, Link, Text } from "@chakra-ui/react";
 export function Header() {
   return (
     <Flex
-      w="100%"
       backgroundImage="url('/banner.jpg')"
       height="2xl"
       backgroundSize="cover"
       backgroundPosition="center"
       borderRadius={8}
       justify="end"
+      marginX={4}
     >
       <Flex
         direction="column"

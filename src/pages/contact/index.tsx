@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <Flex align="center" justify="center" w="100%">
+      <Flex align="center" justify="center" w="100%" p={4}>
         <Box as="form" borderRadius={8}>
           <Heading textAlign="center" pb="4">
             Contact Us

@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Navbar />
       <Header />
-      <Flex direction="column" w="100%" marginY={10} gap={10}>
+      <Flex direction="column" w="100%" marginY={10} gap={10} p={4}>
         <Text alignSelf="center" fontSize="3xl" fontWeight="700">
           Explore by Category
         </Text>
@@ -44,7 +44,7 @@ export default function Home() {
         </Flex>
       </Flex>
 
-      <Flex direction="column" w="100%" marginY={10} gap={10} align="center">
+      <Flex direction="column" w="100%" marginY={10} gap={10} align="center" p={4}>
         <Text fontSize="3xl" fontWeight="700">
           Most Popular
         </Text>

@@ -2,7 +2,7 @@ import { Box, Link, HStack, Text, Flex } from "@chakra-ui/react";
 
 export function Navbar() {
   return (
-    <HStack as="nav" justify="space-between" align="center" w="100%" marginY={4} color="pink.600">
+    <HStack as="nav" justify="space-between" align="center" w="100%" p={4} color="pink.600">
       <Box>
         <Link href="/" _hover={{ textDecoration: "none" }}>
           <Text as="h1" fontFamily="Nanum Brush Script" fontSize="4xl">
